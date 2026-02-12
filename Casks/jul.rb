@@ -3,7 +3,7 @@ cask "jul" do
   name "jul"
   desc "Jul CLI with bundled OpenCode agent"
   homepage "https://github.com/lydakis/jul"
-  version "0.0.4"
+  version "0.0.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "jul" do
   on_macos do
     on_intel do
       url "https://github.com/lydakis/jul/releases/download/v#{version}/jul_#{version}_darwin_amd64.tar.gz"
-      sha256 "24fb40c6d78c31196239f7f17f2d1636024cd005df5cb82c25aa69b5a5346052"
+      sha256 "9522f574efdca1ef364f5018b12eacb13ae76843f1b2d63ca1c637dbfaf0c916"
     end
     on_arm do
       url "https://github.com/lydakis/jul/releases/download/v#{version}/jul_#{version}_darwin_arm64.tar.gz"
-      sha256 "ab2485187d49073fb4cf48824beb93506ed857dd61d8eb6b064a759c0023d153"
+      sha256 "0ff6a1896609943dbdbd9b4f2304b827e615dd75e903c649b5989d5a9db3283c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lydakis/jul/releases/download/v#{version}/jul_#{version}_linux_amd64.tar.gz"
-      sha256 "60eb57c916725809a74f14bb72f823b5d4e0111f531f481725eb4de1610749b9"
+      sha256 "1a7e0da30efcc00838efd513ab3b1558a1c8213ef4138b8d4f2cb2e5624d10c0"
     end
     on_arm do
       url "https://github.com/lydakis/jul/releases/download/v#{version}/jul_#{version}_linux_arm64.tar.gz"
-      sha256 "c87460767f697a2895b364eb1244aa664268e495eedfbf24968b66a85cc14cfb"
+      sha256 "31eee068a913d18c4f3af1fae437b4c5462755dad06d4fbd75ef72fb947cf3a4"
     end
   end
 
